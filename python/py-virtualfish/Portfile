@@ -28,6 +28,7 @@ python.pep517_backend   poetry
 
 if {${name} ne ${subport}} {
     depends_lib-append  port:py${python.version}-virtualenv \
+                        port:py${python.version}-packaging \
                         port:py${python.version}-psutil \
                         port:fish
 
